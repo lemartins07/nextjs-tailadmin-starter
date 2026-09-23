@@ -1,0 +1,429 @@
+# Índice técnico do template
+
+<!-- Gerado por scripts/generate-template-map.mjs. Não editar manualmente. -->
+
+Arquivos inventariados: 387. Caminhos são relativos à raiz do repositório.
+
+## Shell e estilos globais (2)
+
+- `src/template/App.tsx` — exports: default
+- `src/template/template.css`
+
+## Componentes de domínio (124)
+
+- `src/template/components/UiExample/FaqsExample/FaqsOne.tsx` — exports: default
+- `src/template/components/UiExample/FaqsExample/FaqsThree.tsx` — exports: default
+- `src/template/components/UiExample/FaqsExample/FaqsTwo.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/DefaultModal.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/FormInModal.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/FullScreenModal.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/ModalBasedAlerts.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/VerticallyCenteredModal.tsx` — exports: default
+- `src/template/components/UiExample/ModalExample/index.tsx` — exports: default
+- `src/template/components/UserProfile/UserAddressCard.tsx` — exports: default
+- `src/template/components/UserProfile/UserInfoCard.tsx` — exports: default
+- `src/template/components/UserProfile/UserMetaCard.tsx` — exports: default
+- `src/template/components/analytics/AcquisitionChannelChart.tsx` — exports: default
+- `src/template/components/analytics/ActiveUsersChart.tsx` — exports: default
+- `src/template/components/analytics/AnalyticsBarChart.tsx` — exports: default
+- `src/template/components/analytics/AnalyticsMetrics.tsx` — exports: default
+- `src/template/components/analytics/RecentOrderAnalytics.tsx` — exports: default
+- `src/template/components/analytics/SessionChart.tsx` — exports: default
+- `src/template/components/analytics/TopChannel.tsx` — exports: default
+- `src/template/components/analytics/TopPages.tsx` — exports: default
+- `src/template/components/auth/OtpForm.tsx` — exports: default
+- `src/template/components/auth/ResetPasswordForm.tsx` — exports: default
+- `src/template/components/auth/SignInForm.tsx` — exports: default
+- `src/template/components/auth/SignUpForm.tsx` — exports: default
+- `src/template/components/chats/ChatBox.tsx` — exports: default
+- `src/template/components/chats/ChatBoxHeader.tsx` — exports: default
+- `src/template/components/chats/ChatBoxSendForm.tsx` — exports: default
+- `src/template/components/chats/ChatHeader.tsx` — exports: default
+- `src/template/components/chats/ChatHeaderTitle.tsx` — exports: default
+- `src/template/components/chats/ChatList.tsx` — exports: default
+- `src/template/components/chats/ChatSidebar.tsx` — exports: default
+- `src/template/components/common/ChartTab.tsx` — exports: default
+- `src/template/components/common/ComponentCard.tsx` — exports: default
+- `src/template/components/common/CountdownTimer.tsx` — exports: default
+- `src/template/components/common/GridShape.tsx` — exports: default
+- `src/template/components/common/PageBreadCrumb.tsx` — exports: default
+- `src/template/components/common/PageMeta.tsx` — exports: AppWrapper, default
+- `src/template/components/common/ScrollToTop.tsx` — exports: ScrollToTop
+- `src/template/components/common/TableDropdown.tsx` — exports: default
+- `src/template/components/common/ThemeToggleButton.tsx` — exports: ThemeToggleButton
+- `src/template/components/common/ThemeTogglerTwo.tsx` — exports: default
+- `src/template/components/crm/CrmMetrics.tsx` — exports: default
+- `src/template/components/crm/CrmRecentOrderTable.tsx` — exports: default
+- `src/template/components/crm/CrmStatisticsChart.tsx` — exports: default
+- `src/template/components/crm/EstimatedRevenue.tsx` — exports: default
+- `src/template/components/crm/SalePieChart.tsx` — exports: default
+- `src/template/components/crm/UpcomingSchedule.tsx` — exports: default
+- `src/template/components/ecommerce/CountryMap.tsx` — exports: default
+- `src/template/components/ecommerce/DemographicCard.tsx` — exports: default
+- `src/template/components/ecommerce/EcommerceMetrics.tsx` — exports: default
+- `src/template/components/ecommerce/MonthlySalesChart.tsx` — exports: default
+- `src/template/components/ecommerce/MonthlyTarget.tsx` — exports: default
+- `src/template/components/ecommerce/RecentOrders.tsx` — exports: default
+- `src/template/components/ecommerce/StatisticsChart.tsx` — exports: default
+- `src/template/components/email/EmailDetails/EmailDetailsBottom.tsx` — exports: default
+- `src/template/components/email/EmailDetails/EmailDetailsHeader.tsx` — exports: default
+- `src/template/components/email/EmailDetails/EmailWrapper.tsx` — exports: default
+- `src/template/components/email/EmailInbox/EmailContent.tsx` — exports: default
+- `src/template/components/email/EmailInbox/EmailHeader.tsx` — exports: default
+- `src/template/components/email/EmailInbox/EmailPagination.tsx` — exports: default
+- `src/template/components/email/EmailSidebar/EmailSidebar.tsx` — exports: default
+- `src/template/components/email/EmailSidebar/FilterList.tsx` — exports: default
+- `src/template/components/email/EmailSidebar/LabelList.tsx` — exports: default
+- `src/template/components/email/EmailSidebar/MailBox.tsx` — exports: default
+- `src/template/components/faqs/FaqOne.tsx` — exports: default
+- `src/template/components/faqs/FaqTwo.tsx` — exports: default
+- `src/template/components/file-manager/AllFolders.tsx` — exports: default
+- `src/template/components/file-manager/AllMediaCard.tsx` — exports: default
+- `src/template/components/file-manager/FileCard.tsx` — exports: default
+- `src/template/components/file-manager/FolderCard.tsx` — exports: default
+- `src/template/components/file-manager/RecentFileTable.tsx` — exports: default
+- `src/template/components/file-manager/StorageDetailsChart.tsx` — exports: default
+- `src/template/components/header/NotificationDropdown.tsx` — exports: default
+- `src/template/components/header/UserDropdown.tsx` — exports: default
+- `src/template/components/invoice/Invoice.tsx` — exports: default
+- `src/template/components/invoice/InvoiceMain.tsx` — exports: default
+- `src/template/components/invoice/InvoiceSidebar.tsx` — exports: default
+- `src/template/components/invoice/InvoiceTable.tsx` — exports: default
+- `src/template/components/links/ColoredLinkWithUnderline.tsx` — exports: default
+- `src/template/components/links/DefaultLinkExample.tsx` — exports: default
+- `src/template/components/links/LinkOpacityExample.tsx` — exports: default
+- `src/template/components/links/LinkOpacityHover.tsx` — exports: default
+- `src/template/components/links/index.tsx` — exports: default
+- `src/template/components/list/HorizontalList.tsx` — exports: default
+- `src/template/components/list/ListWithButton.tsx` — exports: default
+- `src/template/components/list/ListWithCheckbox.tsx` — exports: default
+- `src/template/components/list/ListWithIcon.tsx` — exports: default
+- `src/template/components/list/ListWithRadio.tsx` — exports: default
+- `src/template/components/list/OrderedList.tsx` — exports: default
+- `src/template/components/list/UnorderedList.tsx` — exports: default
+- `src/template/components/list/index.tsx` — exports: default
+- `src/template/components/marketing/FeaturedCampaign.tsx` — exports: default
+- `src/template/components/marketing/ImpressionChart.tsx` — exports: default
+- `src/template/components/marketing/MarketingMetricsCards.tsx` — exports: default
+- `src/template/components/marketing/TrafficSource.tsx` — exports: default
+- `src/template/components/marketing/TrafficStats.tsx` — exports: default
+- `src/template/components/price-table/PriceTableOne.tsx` — exports: default
+- `src/template/components/price-table/PriceTableThree.tsx` — exports: default
+- `src/template/components/price-table/PriceTableTwo.tsx` — exports: default
+- `src/template/components/saas/ActivitiesCard.tsx` — exports: default
+- `src/template/components/saas/ChurnRateChart.tsx` — exports: default
+- `src/template/components/saas/FunnelChart.tsx` — exports: default
+- `src/template/components/saas/GrowthChart.tsx` — exports: default
+- `src/template/components/saas/ProductPerformanceTab.tsx` — exports: default
+- `src/template/components/saas/SaasInvoiceTable.tsx` — exports: default
+- `src/template/components/saas/SaasMetrics.tsx` — exports: default
+- `src/template/components/saas/chart/DailySaleChart.tsx` — exports: default
+- `src/template/components/saas/chart/NewUserChart.tsx` — exports: default
+- `src/template/components/saas/chart/OnlineSaleChart.tsx` — exports: default
+- `src/template/components/stocks/DividendChart.tsx` — exports: default
+- `src/template/components/stocks/LatestTransactions.tsx` — exports: default
+- `src/template/components/stocks/StockMetricCard.tsx` — exports: default
+- `src/template/components/stocks/StockMetricsList.tsx` — exports: default
+- `src/template/components/stocks/TrendingStocks.tsx` — exports: default
+- `src/template/components/stocks/WatchList.tsx` — exports: default
+- `src/template/components/task/TaskHeader.tsx` — exports: default
+- `src/template/components/task/kanban/Column.tsx` — exports: default
+- `src/template/components/task/kanban/KanbanBoard.tsx` — exports: default
+- `src/template/components/task/kanban/TaskItem.tsx` — exports: default
+- `src/template/components/task/kanban/types/types.ts` — exports: DropResult, Task
+- `src/template/components/task/task-list/TaskItem.tsx` — exports: default
+- `src/template/components/task/task-list/TaskLane.tsx` — exports: default
+- `src/template/components/task/task-list/TaskListPage.tsx` — exports: default
+- `src/template/components/task/task-list/types/Task.ts` — exports: Task
+
+## Cards (13)
+
+- `src/template/components/cards/card-with-icon/CardIconOne.tsx` — exports: default
+- `src/template/components/cards/card-with-icon/CardIconTwo.tsx` — exports: default
+- `src/template/components/cards/card-with-icon/CardWithIconExample.tsx` — exports: default
+- `src/template/components/cards/card-with-image/CardOne.tsx` — exports: default
+- `src/template/components/cards/card-with-image/CardThree.tsx` — exports: default
+- `src/template/components/cards/card-with-image/CardTwo.tsx` — exports: default
+- `src/template/components/cards/card-with-image/CardWithImage.tsx` — exports: default
+- `src/template/components/cards/card-with-link/CardLinkOne.tsx` — exports: default
+- `src/template/components/cards/card-with-link/CardLinkTwo.tsx` — exports: default
+- `src/template/components/cards/card-with-link/CardWithLinkExample.tsx` — exports: default
+- `src/template/components/cards/horizontal-card/CardFive.tsx` — exports: default
+- `src/template/components/cards/horizontal-card/CardFour.tsx` — exports: default
+- `src/template/components/cards/horizontal-card/HorizontalCardWithImage.tsx` — exports: default
+
+## Gráficos (8)
+
+- `src/template/components/charts/bar/BarChartOne.tsx` — exports: default
+- `src/template/components/charts/bar/BarChartTwo.tsx` — exports: default
+- `src/template/components/charts/line/LineChartOne.tsx` — exports: default
+- `src/template/components/charts/line/LineChartThree.tsx` — exports: default
+- `src/template/components/charts/line/LineChartTwo.tsx` — exports: default
+- `src/template/components/charts/line/PortfolioPerformance.tsx` — exports: default
+- `src/template/components/charts/pie/PieChartOne.tsx` — exports: default
+- `src/template/components/charts/pie/PieChartTwo.tsx` — exports: default
+
+## Formulários (27)
+
+- `src/template/components/form/Form.tsx` — exports: default
+- `src/template/components/form/Label.tsx` — exports: default
+- `src/template/components/form/MultiSelect.tsx` — exports: default
+- `src/template/components/form/Select.tsx` — exports: default
+- `src/template/components/form/date-picker.tsx` — exports: default
+- `src/template/components/form/example-form/BasicForm.tsx` — exports: default
+- `src/template/components/form/example-form/ExampleFormOne.tsx` — exports: default
+- `src/template/components/form/example-form/ExampleFormTwo.tsx` — exports: default
+- `src/template/components/form/example-form/ExampleFormWithIcon.tsx` — exports: default
+- `src/template/components/form/form-elements/CheckboxComponents.tsx` — exports: default
+- `src/template/components/form/form-elements/DefaultInputs.tsx` — exports: default
+- `src/template/components/form/form-elements/DropZone.tsx` — exports: default
+- `src/template/components/form/form-elements/FileInputExample.tsx` — exports: default
+- `src/template/components/form/form-elements/InputGroup.tsx` — exports: default
+- `src/template/components/form/form-elements/InputStates.tsx` — exports: default
+- `src/template/components/form/form-elements/RadioButtons.tsx` — exports: default
+- `src/template/components/form/form-elements/SelectInputs.tsx` — exports: default
+- `src/template/components/form/form-elements/TextAreaInput.tsx` — exports: default
+- `src/template/components/form/form-elements/ToggleSwitch.tsx` — exports: default
+- `src/template/components/form/group-input/PhoneInput.tsx` — exports: default
+- `src/template/components/form/input/Checkbox.tsx` — exports: default
+- `src/template/components/form/input/FileInput.tsx` — exports: default
+- `src/template/components/form/input/InputField.tsx` — exports: default
+- `src/template/components/form/input/Radio.tsx` — exports: default
+- `src/template/components/form/input/RadioSm.tsx` — exports: default
+- `src/template/components/form/input/TextArea.tsx` — exports: default
+- `src/template/components/form/switch/Switch.tsx` — exports: default
+
+## Tabelas (11)
+
+- `src/template/components/tables/BasicTables/BasicTableFive.tsx` — exports: default
+- `src/template/components/tables/BasicTables/BasicTableFour.tsx` — exports: default
+- `src/template/components/tables/BasicTables/BasicTableOne.tsx` — exports: default
+- `src/template/components/tables/BasicTables/BasicTableThree.tsx` — exports: default
+- `src/template/components/tables/BasicTables/BasicTableTwo.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableOne/DataTableOne.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableOne/PaginationWithIcon.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableThree/DataTableThree.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableThree/Pagination.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableTwo/DataTableTwo.tsx` — exports: default
+- `src/template/components/tables/DataTables/TableTwo/PaginationWithButton.tsx` — exports: default
+
+## Componentes de UI (76)
+
+- `src/template/components/ui/alert/Alert.tsx` — exports: default
+- `src/template/components/ui/avatar/Avatar.tsx` — exports: default
+- `src/template/components/ui/avatar/AvatarText.tsx` — exports: default
+- `src/template/components/ui/badge/Badge.tsx` — exports: default
+- `src/template/components/ui/breadcrumb/AngleDividerBreadCrumb.tsx` — exports: default
+- `src/template/components/ui/breadcrumb/BreadCrumbWithIcon.tsx` — exports: default
+- `src/template/components/ui/breadcrumb/DefaultBreadCrumbExample.tsx` — exports: default
+- `src/template/components/ui/breadcrumb/DottedDividerBreadcrumb.tsx` — exports: default
+- `src/template/components/ui/button/Button.tsx` — exports: default
+- `src/template/components/ui/buttons-group/ButtonGroupWithLeftIcon.tsx` — exports: default
+- `src/template/components/ui/buttons-group/ButtonGroupWithRightIcon.tsx` — exports: default
+- `src/template/components/ui/buttons-group/PrimaryButtonGroup.tsx` — exports: default
+- `src/template/components/ui/buttons-group/SecondaryButtonGroup.tsx` — exports: default
+- `src/template/components/ui/buttons-group/SecondaryButtonGroupWithLeftIcon.tsx` — exports: default
+- `src/template/components/ui/buttons-group/SecondaryButtonGroupWithRightIcon.tsx` — exports: default
+- `src/template/components/ui/buttons-group/index.tsx` — exports: default
+- `src/template/components/ui/card/index.tsx` — exports: Card, CardDescription, CardTitle
+- `src/template/components/ui/carousel/SlideOnly.tsx` — exports: default
+- `src/template/components/ui/carousel/WithControl.tsx` — exports: default
+- `src/template/components/ui/carousel/WithControlAndIndicators.tsx` — exports: default
+- `src/template/components/ui/carousel/WithIndicators.tsx` — exports: default
+- `src/template/components/ui/dropdown/AccountMenuDropdown.tsx` — exports: default
+- `src/template/components/ui/dropdown/Dropdown.tsx` — exports: Dropdown
+- `src/template/components/ui/dropdown/DropdownItem.tsx` — exports: DropdownItem
+- `src/template/components/ui/dropdown/DropdownWithDivider.tsx` — exports: default
+- `src/template/components/ui/dropdown/DropdownWithIcon.tsx` — exports: default
+- `src/template/components/ui/dropdown/DropdownWithIconAndDivider.tsx` — exports: default
+- `src/template/components/ui/images/ResponsiveImage.tsx` — exports: default
+- `src/template/components/ui/images/ThreeColumnImageGrid.tsx` — exports: default
+- `src/template/components/ui/images/TwoColumnImageGrid.tsx` — exports: default
+- `src/template/components/ui/link/index.tsx` — exports: default
+- `src/template/components/ui/modal/index.tsx` — exports: Modal
+- `src/template/components/ui/notification/CookieConsent.tsx` — exports: default
+- `src/template/components/ui/notification/Notfication.tsx` — exports: default
+- `src/template/components/ui/notification/UpdateNotification.tsx` — exports: default
+- `src/template/components/ui/pagination/PaginationWithIcon.tsx` — exports: default
+- `src/template/components/ui/pagination/PaginationWithText.tsx` — exports: default
+- `src/template/components/ui/pagination/PaginationWithTextAndIcon.tsx` — exports: default
+- `src/template/components/ui/pagination/index.tsx` — exports: default
+- `src/template/components/ui/popover/DefaultPopover.tsx` — exports: default
+- `src/template/components/ui/popover/Popover.tsx` — exports: default
+- `src/template/components/ui/popover/PopoverButton.tsx` — exports: default
+- `src/template/components/ui/popover/PopoverWithLink.tsx` — exports: default
+- `src/template/components/ui/popover/index.tsx` — exports: default
+- `src/template/components/ui/progressbar/DefaultProgressbarExample.tsx` — exports: default
+- `src/template/components/ui/progressbar/ProgressBar.tsx` — exports: default
+- `src/template/components/ui/progressbar/ProgressBarInMultipleSizes.tsx` — exports: default
+- `src/template/components/ui/progressbar/ProgressBarWithInsideLabel.tsx` — exports: default
+- `src/template/components/ui/progressbar/ProgressBarWithOutsideLabel.tsx` — exports: default
+- `src/template/components/ui/progressbar/index.tsx` — exports: default
+- `src/template/components/ui/ribbons/FilledRibbon.tsx` — exports: default
+- `src/template/components/ui/ribbons/RibbonWithHover.tsx` — exports: default
+- `src/template/components/ui/ribbons/RibbonWithShape.tsx` — exports: default
+- `src/template/components/ui/ribbons/RoundedRibbon.tsx` — exports: default
+- `src/template/components/ui/ribbons/index.tsx` — exports: default
+- `src/template/components/ui/spinner/SpinnerFour.tsx` — exports: default
+- `src/template/components/ui/spinner/SpinnerOne.tsx` — exports: default
+- `src/template/components/ui/spinner/SpinnerThree.tsx` — exports: default
+- `src/template/components/ui/spinner/SpinnerTwo.tsx` — exports: default
+- `src/template/components/ui/spinner/index.tsx` — exports: default
+- `src/template/components/ui/table/index.tsx` — exports: Table, TableBody, TableCell, TableHeader, TableRow
+- `src/template/components/ui/tabs/DefaultTab.tsx` — exports: default
+- `src/template/components/ui/tabs/TabWithBadge.tsx` — exports: default
+- `src/template/components/ui/tabs/TabWithUnderline.tsx` — exports: TabButton, default
+- `src/template/components/ui/tabs/TabWithUnderlineAndIcon.tsx` — exports: TabData, default
+- `src/template/components/ui/tabs/VerticalTabs.tsx` — exports: default
+- `src/template/components/ui/tabs/index.tsx` — exports: default
+- `src/template/components/ui/tooltip/DefaultTooltip.tsx` — exports: default
+- `src/template/components/ui/tooltip/TooltipPlacement.tsx` — exports: default
+- `src/template/components/ui/tooltip/WhiteAndDarkTooltip.tsx` — exports: default
+- `src/template/components/ui/tooltip/index.tsx` — exports: default
+- `src/template/components/ui/videos/AspectRatioVideo.tsx` — exports: default
+- `src/template/components/ui/videos/FourIsToThree.tsx` — exports: default
+- `src/template/components/ui/videos/OneIsToOne.tsx` — exports: default
+- `src/template/components/ui/videos/SixteenIsToNine.tsx` — exports: default
+- `src/template/components/ui/videos/TwentyOneIsToNine.tsx` — exports: default
+
+## Shell e navegação (7)
+
+- `src/template/context/SidebarContext.tsx` — exports: SidebarProvider, useSidebar
+- `src/template/context/ThemeContext.tsx` — exports: ThemeProvider, useTheme
+- `src/template/layout/AppHeader.tsx` — exports: default
+- `src/template/layout/AppLayout.tsx` — exports: default
+- `src/template/layout/AppSidebar.tsx` — exports: default
+- `src/template/layout/Backdrop.tsx` — exports: default
+- `src/template/layout/SidebarWidget.tsx` — exports: default
+
+## Hooks (2)
+
+- `src/template/hooks/useGoBack.ts` — exports: default
+- `src/template/hooks/useModal.ts` — exports: useModal
+
+## Ícones (58)
+
+- `src/template/icons/alert-hexa.svg`
+- `src/template/icons/alert.svg`
+- `src/template/icons/angle-down.svg`
+- `src/template/icons/angle-left.svg`
+- `src/template/icons/angle-right.svg`
+- `src/template/icons/angle-up.svg`
+- `src/template/icons/arrow-down.svg`
+- `src/template/icons/arrow-right.svg`
+- `src/template/icons/arrow-up.svg`
+- `src/template/icons/audio.svg`
+- `src/template/icons/bolt.svg`
+- `src/template/icons/box-cube.svg`
+- `src/template/icons/box-line.svg`
+- `src/template/icons/box.svg`
+- `src/template/icons/calendar.svg`
+- `src/template/icons/calender-line.svg`
+- `src/template/icons/chat.svg`
+- `src/template/icons/check-circle.svg`
+- `src/template/icons/check-line.svg`
+- `src/template/icons/chevron-down.svg`
+- `src/template/icons/chevron-left.svg`
+- `src/template/icons/chevron-up.svg`
+- `src/template/icons/close-line.svg`
+- `src/template/icons/close.svg`
+- `src/template/icons/copy.svg`
+- `src/template/icons/docs.svg`
+- `src/template/icons/dollar-line.svg`
+- `src/template/icons/download.svg`
+- `src/template/icons/envelope.svg`
+- `src/template/icons/eye-close.svg`
+- `src/template/icons/eye.svg`
+- `src/template/icons/file.svg`
+- `src/template/icons/folder.svg`
+- `src/template/icons/grid.svg`
+- `src/template/icons/group.svg`
+- `src/template/icons/horizontal-dots.svg`
+- `src/template/icons/index.ts` — exports: AlertHexaIcon, AlertIcon, AngleDownIcon, AngleUpIcon, ArrowDownIcon, ArrowRightIcon, ArrowUpIcon, AudioIcon, BoltIcon, BoxCubeIcon, BoxIcon, BoxIconLine, CalenderIcon, ChatIcon, CheckCircleIcon, CheckLineIcon, ChevronDownIcon, ChevronLeftIcon, ChevronUpIcon, CloseIcon, CloseLineIcon, CopyIcon, DocsIcon, DollarLineIcon, DownloadIcon, EnvelopeIcon, ErrorHexaIcon, ErrorIcon, EyeCloseIcon, EyeIcon, FileIcon, FolderIcon, GridIcon, GroupIcon, HorizontaLDots, InfoIcon, ListIcon, LockIcon, MailIcon, MoreDotIcon, PageIcon, PaperPlaneIcon, PencilIcon, PieChartIcon, PlugInIcon, PlusIcon, ShootingStarIcon, TableIcon, TaskIcon, TimeIcon, TrashBinIcon, UserCircleIcon, UserIcon, VideoIcon
+- `src/template/icons/info-error.svg`
+- `src/template/icons/info-hexa.svg`
+- `src/template/icons/info.svg`
+- `src/template/icons/list.svg`
+- `src/template/icons/lock.svg`
+- `src/template/icons/mail-line.svg`
+- `src/template/icons/moredot.svg`
+- `src/template/icons/page.svg`
+- `src/template/icons/paper-plane.svg`
+- `src/template/icons/pencil.svg`
+- `src/template/icons/pie-chart.svg`
+- `src/template/icons/plug-in.svg`
+- `src/template/icons/plus.svg`
+- `src/template/icons/shooting-star.svg`
+- `src/template/icons/table.svg`
+- `src/template/icons/task-icon.svg`
+- `src/template/icons/time.svg`
+- `src/template/icons/trash.svg`
+- `src/template/icons/user-circle.svg`
+- `src/template/icons/user-line.svg`
+- `src/template/icons/videos.svg`
+
+## Suporte (1)
+
+- `src/template/svg.d.ts` — exports: default
+
+## Páginas de referência (58)
+
+- `src/template/views/AuthPages/AuthPageLayout.tsx` — exports: default
+- `src/template/views/AuthPages/ResetPassword.tsx` — exports: default
+- `src/template/views/AuthPages/SignIn.tsx` — exports: default
+- `src/template/views/AuthPages/SignUp.tsx` — exports: default
+- `src/template/views/AuthPages/TwoStepVerification.tsx` — exports: default
+- `src/template/views/Blank.tsx` — exports: default
+- `src/template/views/Calendar.tsx` — exports: default
+- `src/template/views/Charts/BarChart.tsx` — exports: default
+- `src/template/views/Charts/LineChart.tsx` — exports: default
+- `src/template/views/Charts/PieChart.tsx` — exports: default
+- `src/template/views/Chat/Chats.tsx` — exports: default
+- `src/template/views/Dashboard/Analytics.tsx` — exports: default
+- `src/template/views/Dashboard/Crm.tsx` — exports: default
+- `src/template/views/Dashboard/Ecommerce.tsx` — exports: default
+- `src/template/views/Dashboard/Marketing.tsx` — exports: default
+- `src/template/views/Dashboard/Saas.tsx` — exports: default
+- `src/template/views/Dashboard/Stocks.tsx` — exports: default
+- `src/template/views/Email/EmailDetails.tsx` — exports: default
+- `src/template/views/Email/EmailInbox.tsx` — exports: default
+- `src/template/views/Faqs.tsx` — exports: default
+- `src/template/views/FileManager.tsx` — exports: default
+- `src/template/views/Forms/FormElements.tsx` — exports: default
+- `src/template/views/Forms/FormLayout.tsx` — exports: default
+- `src/template/views/Invoices.tsx` — exports: default
+- `src/template/views/OtherPage/ComingSoon.tsx` — exports: default
+- `src/template/views/OtherPage/FiveZeroThree.tsx` — exports: default
+- `src/template/views/OtherPage/FiveZeroZero.tsx` — exports: default
+- `src/template/views/OtherPage/Maintenance.tsx` — exports: default
+- `src/template/views/OtherPage/NotFound.tsx` — exports: default
+- `src/template/views/OtherPage/Success.tsx` — exports: default
+- `src/template/views/PricingTables.tsx` — exports: default
+- `src/template/views/Tables/BasicTables.tsx` — exports: default
+- `src/template/views/Tables/DataTables.tsx` — exports: default
+- `src/template/views/Task/TaskKanban.tsx` — exports: default
+- `src/template/views/Task/TaskList.tsx` — exports: default
+- `src/template/views/UiElements/Alerts.tsx` — exports: default
+- `src/template/views/UiElements/Avatars.tsx` — exports: default
+- `src/template/views/UiElements/Badges.tsx` — exports: default
+- `src/template/views/UiElements/BreadCrumb.tsx` — exports: default
+- `src/template/views/UiElements/Buttons.tsx` — exports: default
+- `src/template/views/UiElements/ButtonsGroup.tsx` — exports: default
+- `src/template/views/UiElements/Cards.tsx` — exports: default
+- `src/template/views/UiElements/Carousel.tsx` — exports: default
+- `src/template/views/UiElements/Dropdowns.tsx` — exports: default
+- `src/template/views/UiElements/Images.tsx` — exports: default
+- `src/template/views/UiElements/Links.tsx` — exports: default
+- `src/template/views/UiElements/Lists.tsx` — exports: default
+- `src/template/views/UiElements/Modals.tsx` — exports: default
+- `src/template/views/UiElements/Notifications.tsx` — exports: default
+- `src/template/views/UiElements/Pagination.tsx` — exports: default
+- `src/template/views/UiElements/Popovers.tsx` — exports: default
+- `src/template/views/UiElements/Progressbar.tsx` — exports: default
+- `src/template/views/UiElements/Ribbons.tsx` — exports: default
+- `src/template/views/UiElements/Spinners.tsx` — exports: default
+- `src/template/views/UiElements/Tabs.tsx` — exports: default
+- `src/template/views/UiElements/Tooltips.tsx` — exports: default
+- `src/template/views/UiElements/Videos.tsx` — exports: default
+- `src/template/views/UserProfiles.tsx` — exports: default
+

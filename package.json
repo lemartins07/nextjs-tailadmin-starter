@@ -14,6 +14,8 @@
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "template:map": "node scripts/generate-template-map.mjs",
+    "template:map:check": "node scripts/generate-template-map.mjs --check",
     "quality": "npm run format:check && npm run lint && npm run typecheck && npm run build",
     "db:up": "docker compose up -d --wait db",
     "db:down": "docker compose down",
